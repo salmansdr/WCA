@@ -6,6 +6,5 @@
   { "id": 5, "category": "Classrooms", "title": "Science Laboratory", "src": "/library/gallery/classrooms/science-laboratory.svg" },
   { "id": 6, "category": "Classrooms", "title": "Computer Lab", "src": "/library/gallery/classrooms/computer-lab.svg" },
   { "id": 7, "category": "Activities", "title": "Sports Day", "src": "/library/gallery/activities/sports-day.svg" },
-  { "id": 8, "category": "Activities", "title": "Cultural Programme", "src": "/library/gallery/activities/cultural-programme.svg" },
-  { "id": 9, "category": "Activities", "title": "Science Fair", "src": "/library/gallery/activities/science-fair.svg" }
+  { "id": 8, "category": "Activities", "title": "Cultural Programme", "src": "/library/gallery/activities/cultural-programme.svg" }
 ]
