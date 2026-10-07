@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero.jsx";
 import useJson from "../useJson.js";
 
 const icons = {
@@ -46,23 +47,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
-        <svg className="hero-art" viewBox="0 0 400 400" aria-hidden="true">
-          <path d="M260 40a170 170 0 1 0 0 320 135 135 0 1 1 0-320z" fill="rgba(255,255,255,.08)" />
-        </svg>
-        <div className="container hero-inner">
-          <p className="eyebrow">Admissions open · Classes 5–12</p>
-          <h1>Where curious minds grow into confident leaders</h1>
-          <p className="lead">
-            White Crescent Academy, Dadpur, Barasat — a residential school with a caring community,
-            West Bengal Board curriculum and a love of learning.
-          </p>
-          <div className="actions">
-            <Link className="btn btn-lg" to="/admissions">Apply Now</Link>
-            <Link className="btn btn-outline btn-lg" to="/about">Discover Our School</Link>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       <div className="container stats" role="list">
         {stats.map(([a, b]) => (

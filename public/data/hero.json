@@ -1,0 +1,9 @@
+{
+  "intervalSeconds": 5,
+  "slides": [
+    { "src": "/library/hero/IMG1.jpg" },
+    { "src": "/library/hero/IMG2.jpg" },
+    { "src": "/library/hero/IMG3.jpg" },
+    { "src": "/library/hero/IMG4.jpg" }
+  ]
+}

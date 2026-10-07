@@ -22,6 +22,7 @@ export default function Layout() {
   return (
     <>
       <a href="#main" className="skip-link">Skip to content</a>
+      <div className="site-header">
       <div className="topbar">
         <div className="container topbar-inner">
           <Link to="/" className="brand" aria-label={`${site.name} home`}>
@@ -51,6 +52,7 @@ export default function Layout() {
           </nav>
         </div>
       </header>
+      </div>
       <main id="main">
         <Outlet />
       </main>
