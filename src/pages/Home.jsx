@@ -49,8 +49,6 @@ export default function Home() {
       <section className="hero">
         <svg className="hero-art" viewBox="0 0 400 400" aria-hidden="true">
           <path d="M260 40a170 170 0 1 0 0 320 135 135 0 1 1 0-320z" fill="rgba(255,255,255,.08)" />
-          <circle cx="320" cy="90" r="14" fill="#2ECC71" opacity=".9" />
-          <circle cx="360" cy="150" r="5" fill="#fff" opacity=".6" />
         </svg>
         <div className="container hero-inner">
           <p className="eyebrow">Admissions open · Classes 5–12</p>
