@@ -13,12 +13,13 @@ export const site = {
 
 export const nav = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About Us" },
+  
   { to: "/academics", label: "Academics" },
   { to: "/admissions", label: "Admissions" },
   { to: "/residential-life", label: "Residential Life" },
   { to: "/events", label: "Events & Notices" },
   { to: "/gallery", label: "Gallery" },
   { to: "/resources", label: "Student Resources" },
+  { to: "/about", label: "About Us" },
   { to: "/contact", label: "Contact Us" },
 ];
