@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Class 10 Mathematics – Revision Notes", "category": "Study Material", "type": "pdf", "url": "/library/resources/study-material/class10-maths.pdf", "description": "Chapter-wise revision notes." },
+  { "id": 2, "title": "Class 8 Science – Practice Sheet", "category": "Study Material", "type": "pdf", "url": "/library/resources/study-material/class8-science.pdf", "description": "Practice questions with answers." },
+  { "id": 3, "title": "Notice Board – Current Month", "category": "Notices", "type": "image", "url": "/library/resources/notices/notice-board.svg", "description": "Scanned notice board." },
+  { "id": 4, "title": "Half-Yearly Exam Preparation Tips", "category": "Exam Prep", "type": "video", "url": "/library/resources/exam-prep/exam-prep-tips.mp4", "description": "Guidance from senior teachers." },
+  { "id": 5, "title": "Class 12 Previous Year Question Papers", "category": "Exam Prep", "type": "pdf", "url": "/library/resources/exam-prep/class12-papers.pdf", "description": "Last five years' papers." }
+]

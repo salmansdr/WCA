@@ -1,0 +1,8 @@
+[
+  { "id": 1, "type": "event", "title": "Annual Sports Day", "date": "2026-12-15", "description": "Track and field events, team games and prize distribution for all classes." },
+  { "id": 2, "type": "event", "title": "Science & Art Exhibition", "date": "2027-01-20", "description": "Students showcase working models, projects and artwork." },
+  { "id": 3, "type": "circular", "title": "Winter Vacation Schedule", "date": "2026-12-01", "description": "School closes for winter break; hostel reopening dates are listed in the circular.", "file": "/library/notices/winter-vacation.pdf" },
+  { "id": 4, "type": "circular", "title": "Parent–Teacher Meeting", "date": "2026-11-10", "description": "Meeting for Classes 5–8 from 10:00 AM to 1:00 PM." },
+  { "id": 5, "type": "exam", "title": "Half-Yearly Examination Routine (Classes 5–10)", "date": "2026-11-25", "description": "Examinations begin on 25 November. Download the routine for details.", "file": "/library/notices/half-yearly-routine.pdf" },
+  { "id": 6, "type": "exam", "title": "Class 12 Test Examination Notice", "date": "2026-12-05", "description": "Test examinations for Higher Secondary students; admit cards available from the office." }
+]
