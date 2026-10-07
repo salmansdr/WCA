@@ -49,13 +49,15 @@ export default function Home() {
     <>
       <Hero />
 
-      <div className="container stats" role="list">
-        {stats.map(([a, b]) => (
-          <div className="stat" role="listitem" key={a}>
-            <strong>{a}</strong>
-            <span>{b}</span>
-          </div>
-        ))}
+      <div className="stats-band">
+        <div className="container stats" role="list">
+          {stats.map(([a, b]) => (
+            <div className="stat" role="listitem" key={a}>
+              <strong>{a}</strong>
+              <span>{b}</span>
+            </div>
+          ))}
+        </div>
       </div>
 
       <section className="section container split">

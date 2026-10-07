@@ -55,7 +55,7 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .hero-arrow:hover { background: var(--green); border-color: var(--green); color: #052b14; }
 .hero-arrow.prev { left: 1.2rem; }
 .hero-arrow.next { right: 1.2rem; }
-.hero-dots { position: absolute; left: 0; right: 0; bottom: 4.6rem; display: flex; justify-content: center; gap: .6rem; }
+.hero-dots { position: absolute; left: 0; right: 0; bottom: 1.2rem; display: flex; justify-content: center; gap: .6rem; }
 .hero-dots button { width: 12px; height: 12px; padding: 0; border-radius: 50%; border: 2px solid #fff; background: rgba(0,0,0,.25); cursor: pointer; }
 .hero-dots button.active { background: var(--green); border-color: var(--green); }
 @media (max-width: 960px) {
@@ -74,11 +74,12 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .actions.center { justify-content: center; }
 .btn-lg { padding: .9rem 1.9rem; font-size: 1.05rem; }
 
-.stats { position: relative; margin-top: -3.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); background: var(--white); border-radius: 16px; box-shadow: 0 10px 30px rgba(10,61,98,.18); overflow: hidden; }
-.stat { padding: 1.4rem 1.2rem; text-align: center; border-right: 1px solid #e8ebf2; }
+.stats-band { background: var(--navy); border-bottom: 4px solid var(--green); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+.stat { padding: 1.6rem 1.2rem; text-align: center; border-right: 1px solid rgba(255,255,255,.18); }
 .stat:last-child { border-right: 0; }
-.stat strong { display: block; font-size: 1.7rem; color: var(--navy); }
-.stat span { color: #53606b; font-size: .92rem; }
+.stat strong { display: block; font-size: 1.8rem; color: var(--white); line-height: 1.2; }
+.stat span { color: #cfe3f1; font-size: .95rem; }
 
 .kicker { color: var(--green-dark); font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; margin: 0 0 .4rem; }
 .heading { text-align: center; margin-bottom: 2rem; }
@@ -171,6 +172,6 @@ address { font-style: normal; }
   .hero { padding: 3.5rem 0 5rem; }
   .hero-inner { margin-left: auto; width: min(1120px, 92%); }
   .updates li { grid-template-columns: 1fr; gap: .2rem; }
-  .stat { border-right: 0; border-bottom: 1px solid #e8ebf2; }
+  .stat { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.18); }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
