@@ -7,9 +7,9 @@ const leaders = [
 ];
 
 const faculty = [
-  { dept: "Languages", names: ["Bengali", "English", "Hindi / Urdu"] },
+  { dept: "Languages", names: ["Bengali", "English", "Hindi / Arabic"] },
   { dept: "Mathematics & Science", names: ["Mathematics", "Physics", "Chemistry", "Biology"] },
-  { dept: "Humanities", names: ["History", "Geography", "Political Science"] },
+  { dept: "Humanities", names: ["History", "Geography"] },
   { dept: "Co-curricular", names: ["Computer Science", "Physical Education", "Art & Craft"] },
 ];
 
