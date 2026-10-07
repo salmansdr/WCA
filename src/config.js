@@ -7,7 +7,6 @@ export const site = {
   mapSrc: "https://www.google.com/maps?q=Dadpur,Barasat,West+Bengal&output=embed",
   social: [
     { label: "Facebook", href: "https://facebook.com" },
-    { label: "Instagram", href: "https://instagram.com" },
     { label: "YouTube", href: "https://youtube.com" },
   ],
 };
